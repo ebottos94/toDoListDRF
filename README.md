@@ -1,4 +1,5 @@
 # Simple to do list with Django REST framework and Vue.js
+Write the to-dos from the frontend, hit enter and save them on the database!
 # How to set up the project to run on your local machine? (Windows version)
 Download the code to your PC, unpack the zip and move inside the folder.
 # Create a new Python Virtual Environment:
