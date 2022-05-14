@@ -5,7 +5,7 @@ Download the code to your PC, unpack the zip and move inside the folder.
 # Create a new Python Virtual Environment:
 python -m venv venv
 # Activate the environment:
-cd venv\Script
+cd venv\Scripts
 activate
 # Go back to the project folder and install all the Python/Django dependencies
 pip install -r requirements.txt
