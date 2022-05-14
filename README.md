@@ -1,14 +1,15 @@
 # Simple to do list with Django REST framework and Vue.js
-# How to set up the project to run on your local machine?
+# How to set up the project to run on your local machine? (Windows version)
 Download the code to your PC, unpack the zip and move inside the folder.
 # Create a new Python Virtual Environment:
-python3 -m venv venv
-# Activate the environment and install all the Python/Django dependencies:
-source ./venv/bin/activate
-pip install -m ./requirements.txt
-# Apply the migrations as usual.
+python -m venv venv
+# Activate the environment:
+cd venv\Script
+activate
+# Go back to the project folder and install all the Python/Django dependencies
+pip install -r requirements.txt
 # Time to install the Vue JS dependencies:
-cd toDoListDRF/frontend
+cd frontend
 npm install
 # Run Vue JS Development Server:
 npm run serve
