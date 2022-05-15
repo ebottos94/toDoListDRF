@@ -7,17 +7,22 @@ python -m venv venv (Windows)
 
 python3 -m venv venv (Linux/Mac)
 # Activate the environment:
-cd venv\Scripts (Windows)
+(Windows) :
 
-cd bin\Scripts (Linux/Mac)
+cd venv/Scripts
 
 activate
-# Go to the project folder and install all the Python/Django dependencies
-pip install -r requirements.txt (Windows)
 
-pip install -m requirements.txt (Linux/Mac)
-# Open new terminal and install the Vue JS dependencies:
-cd toDoListDRF-master/frontend
+(Linux/Mac) :
+
+cd venv
+
+. bin/activate
+# Go to the project folder and install all the Python/Django dependencies
+pip install -r requirements.txt 
+
+# Open new terminal and install the Vue JS dependencies. From project folder:
+cd frontend
 
 npm install
 # Run Vue JS Development Server:
