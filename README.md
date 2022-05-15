@@ -18,7 +18,7 @@ activate
 cd venv
 
 . bin/activate
-# Go to the project folder and install all the Python/Django dependencies
+# Go to the project folder and install all Python/Django dependencies
 pip install -r requirements.txt 
 
 # Open new terminal and install the Vue JS dependencies. From project folder:
