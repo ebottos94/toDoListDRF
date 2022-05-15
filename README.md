@@ -12,12 +12,13 @@ cd venv\Scripts (Windows)
 cd bin\Scripts (Linux/Mac)
 
 activate
-# Go back to the project folder and install all the Python/Django dependencies
+# Go to the project folder and install all the Python/Django dependencies
 pip install -r requirements.txt (Windows)
 
 pip install -m requirements.txt (Linux/Mac)
-# Time to install the Vue JS dependencies:
-cd frontend
+# Open new terminal and install the Vue JS dependencies:
+cd toDoListDRF-master/frontend
+
 npm install
 # Run Vue JS Development Server:
 npm run serve
